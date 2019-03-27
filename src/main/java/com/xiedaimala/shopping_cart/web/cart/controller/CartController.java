@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@RestController
 public class CartController {
     private UserDao userDao;
     private ProductDao productDao;
